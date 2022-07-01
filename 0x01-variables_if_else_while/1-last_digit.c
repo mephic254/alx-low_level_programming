@@ -25,7 +25,7 @@ if (n == 0)
 {
 printf("and is 0");
 }
-if (n < 6 && n != 0)
+if (n < 6 || n != 0)
 {
 printf("leess than 6 and not 0");
 }
