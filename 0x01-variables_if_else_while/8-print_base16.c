@@ -9,15 +9,16 @@
 
 int main(void)
 {
-int m;
-int n;
-for (m = 48; m <= 57; m++)
+int m = 97;
+int n = 48;
+while (m <= 102)
 {
-	putchar(m);
+for (; n <= 57; n++)
+{
+	putchar (n);
 }
-for (n = 97; m <= 102; n++)
-{
-	putchar(n);
+	putchar(m);
+	m++;
 }
 putchar(10);
 return (0);
